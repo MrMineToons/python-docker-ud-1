@@ -39,7 +39,6 @@ RUN adduser \
     chmod -R +x /scripts
 ENV PATH="/scripts:/py/bin:$PATH"
 
-USER user
 CMD ["run.sh"]
 
 
